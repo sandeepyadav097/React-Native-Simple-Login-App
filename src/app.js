@@ -3,7 +3,7 @@ import {View, Text} from 'react-native'
 // import firebase from 'firebase'
 // addding import is causing error used require instead in the component will mount
 import { Header } from './components/common'
-
+import Login from './components/Login'
 
 class App extends React.Component{
 
@@ -28,18 +28,10 @@ class App extends React.Component{
 
 render(){
 return (
-<View>
-    {/* <Header >Authentication</Header>   */}
-
-
-
-<Header headerText= "Authentication App"/>
-
-    <Text> 
-        Hello
-    </Text>
-    </View>
-
+    <View> 
+    <Header headerText="Login Here"/>
+<Login/>
+</View>
 );
 }
 }
