@@ -32,6 +32,7 @@ const styles={
         borderWidth:1,
         borderColor:'#007aff',
         marginLeft:5,
+        //padding:10,
         marginRight:5
     }
 }
